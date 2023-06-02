@@ -23,7 +23,7 @@ app.use((req,res,next)=>{
 })
 
 //mongo db connection
-MongoClient.connect("mongodb+srv://ismail-kabir:Danmama785@cluster0.lpmoenk.mongodb.net", (error, client) => {
+MongoClient.connect("mongodb+srv://axulkifil:january8@cluster0.lp5ebak.mongodb.net/test", (error, client) => {
     db = client.db("coursework2");
 });
 
